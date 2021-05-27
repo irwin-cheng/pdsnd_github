@@ -139,7 +139,8 @@ def station_stats(df):
     print("The most frequent combination of start and end station trip is: ", df['combination'].mode()[0])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase line break hyphens to 50 in station stat function of bikeshare Python file
+    print('-'*50)
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
