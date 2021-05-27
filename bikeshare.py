@@ -139,7 +139,8 @@ def station_stats(df):
     print("The most frequent combination of start and end station trip is: ", df['combination'].mode()[0])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase line break hyphens to 50 in station stat function of bikeshare Python file
+    print('-'*50)
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -155,7 +156,8 @@ def trip_duration_stats(df):
     print("The mean travel time: ", round(mean_travel_time, 1), " seconds","\n" )
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase number of line breaks to 50 dash characters in trip_duration_stat function
+    print('-'*50)
 
 def user_stats(city, df):
     """Displays statistics on bikeshare users."""
@@ -182,7 +184,8 @@ def user_stats(city, df):
         print("The most common birth year: ", most_common_birth_year, "\n")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase line break hyphens to 50 in user stat function of the Python file
+    print('-'*50)
 
 def display_raw_data(df):
     """ Your docstring here """
