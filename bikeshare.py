@@ -184,7 +184,8 @@ def user_stats(city, df):
         print("The most common birth year: ", most_common_birth_year, "\n")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase line break hyphens to 50 in user stat function of the Python file
+    print('-'*50)
 
 def display_raw_data(df):
     """ Your docstring here """
