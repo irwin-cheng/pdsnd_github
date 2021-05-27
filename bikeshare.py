@@ -155,7 +155,8 @@ def trip_duration_stats(df):
     print("The mean travel time: ", round(mean_travel_time, 1), " seconds","\n" )
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase number of line breaks to 50 dash characters in trip_duration_stat function
+    print('-'*50)
 
 def user_stats(city, df):
     """Displays statistics on bikeshare users."""
