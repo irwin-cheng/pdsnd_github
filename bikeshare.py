@@ -1,4 +1,5 @@
 #Author: Irwin Cheng, May 2021
+#Update: May 27, 2021
 #Purpose: Provide desriptive statistics as part of the Bike Share data analysis project written in Python
 import time
 import pandas as pd
