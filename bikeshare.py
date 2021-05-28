@@ -54,7 +54,7 @@ def get_filters():
     #Increase line break hyphens from 40 to 50 in get_filters function of the Python file
     print('-'*50)
 
-    
+
     return city, month, day
 
 def load_data(city, month, day):
@@ -159,7 +159,7 @@ def trip_duration_stats(df):
     print("The mean travel time: ", round(mean_travel_time, 1), " seconds","\n" )
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    #Increase number of line breaks to 50 dash characters in trip_duration_stat function
+    #Increase number of line breaks to 50 dash characters in trip_duration_stat  function
     print('-'*50)
 
 def user_stats(city, df):
