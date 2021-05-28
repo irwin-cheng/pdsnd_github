@@ -151,7 +151,6 @@ def trip_duration_stats(df):
     start_time = time.time()
 
 
-
     # display total travel time, round value to 1 decimal place
     total_travel_time = sum(df['Trip Duration'])
     print("The total travel time: ", round(total_travel_time, 1)," seconds", "\n")
@@ -163,6 +162,7 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     #Increase number of line breaks to 50 dash characters in trip_duration_stat  function
     print('-'*50)
+
 
 def user_stats(city, df):
     """Displays statistics on bikeshare users."""
