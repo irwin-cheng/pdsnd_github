@@ -119,7 +119,8 @@ def time_stats(df):
     print("The most common start hour: ", df['hour'].mode()[0])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #Increase line break hyphens to 50 in the time statistics function of Python file
+    print('-'*50)
 
 
 def station_stats(df):
