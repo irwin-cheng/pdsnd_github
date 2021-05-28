@@ -52,7 +52,7 @@ def get_filters():
         except:
                 print("Plese enter day of week")
     #Increase line break hyphens from 40 to 50 in get_filters function of the Python file
-    print('-'*40)
+    print('-'*50)
     return city, month, day
 
 def load_data(city, month, day):
