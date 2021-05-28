@@ -150,6 +150,8 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
+
+
     # display total travel time, round value to 1 decimal place
     total_travel_time = sum(df['Trip Duration'])
     print("The total travel time: ", round(total_travel_time, 1)," seconds", "\n")
