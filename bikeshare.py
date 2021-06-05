@@ -157,9 +157,8 @@ def trip_duration_stats(df):
     # to display mean travel time, round value to 1 decimal place
     mean_travel_time = df['Trip Duration'].mean()
     print("The mean travel time: ", round(mean_travel_time, 1), " seconds","\n" )
-
     print("\nThis took %s seconds." % (time.time() - start_time))
-    #Increase number of line breaks to 45 dash characters in trip_duration_stat function
+    #Modify number of line breaks to 45 dash characters in trip_duration_stat function
     print('-'*45)
 
 def user_stats(city, df):
